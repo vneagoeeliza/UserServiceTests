@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import utils.RestAssuredBase;
 
 import static io.restassured.RestAssured.given;
+
 @Epic("RestAssured Tests")
 @Feature("Delete user")
 public class DeleteUserNegativeScenarioTests extends RestAssuredBase {

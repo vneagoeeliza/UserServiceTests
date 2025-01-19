@@ -10,6 +10,7 @@ import utils.RestAssuredBase;
 import utils.User;
 
 import static io.restassured.RestAssured.given;
+
 @Epic("RestAssured Tests")
 @Feature("Create user")
 class CreateUserPositiveScenariosTests extends RestAssuredBase {

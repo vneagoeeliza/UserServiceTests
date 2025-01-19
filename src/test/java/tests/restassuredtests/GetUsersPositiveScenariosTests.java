@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.hasSize;
 
 public class GetUsersPositiveScenariosTests extends RestAssuredBase {
     @Test
-    public void getUsersTest() {
+    public void getAllUsers() {
         given()
                 .spec(specifications)
                 .when()
