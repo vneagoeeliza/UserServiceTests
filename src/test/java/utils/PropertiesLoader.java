@@ -5,6 +5,7 @@ import configuration.Toolkit;
 
 public class PropertiesLoader {
     public Toolkit toolkit;
+
     public PropertiesLoader() {
         initialize();
     }

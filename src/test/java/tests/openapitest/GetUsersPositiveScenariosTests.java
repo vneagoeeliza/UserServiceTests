@@ -1,4 +1,4 @@
-package tests.sdktests;
+package tests.openapitest;
 
 import com.user_service.model.UserPojo;
 import io.qameta.allure.Epic;
@@ -10,7 +10,7 @@ import utils.PropertiesLoader;
 
 import java.util.List;
 
-@Epic("OpenAi Tests")
+@Epic("OpenApi Tests")
 @Feature("Get users")
 public class GetUsersPositiveScenariosTests extends PropertiesLoader {
 

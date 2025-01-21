@@ -1,4 +1,4 @@
-package tests.sdktests;
+package tests.openapitest;
 
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.web.client.HttpClientErrorException;
 import utils.PropertiesLoader;
 
-@Epic("OpenAi Tests")
+@Epic("OpenApi Tests")
 @Feature("Create user")
 public class CreateUserNegativeScenariosTests extends PropertiesLoader {
 
