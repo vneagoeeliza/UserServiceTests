@@ -1,4 +1,4 @@
-package tests.sdktests;
+package tests.openapitest;
 
 import com.user_service.model.UserPojo;
 import io.qameta.allure.Epic;
@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.HttpClientErrorException;
 import utils.PropertiesLoader;
 
-@Epic("OpenAi Tests")
+@Epic("OpenApi Tests")
 @Feature("Update user")
 public class UpdateUserNegativeScenariosTests extends PropertiesLoader {
     String userId;
